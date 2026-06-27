@@ -70,8 +70,15 @@ manager.addTask(5, "Health", 10)
 manager.addTask(6, "Eat", 5)
 manager.addTask(7, "Sleep", 5)
 
+manager.printTasks()
+
+manager.GoodSearchByID(3) // Searching for task with ID 3
+console.log(`\n Searching for task with ID 3: ${manager.GoodSearchByID(3)?.title}`)         
+
 
 //SORTING 
 console.log("\n Sorting tasks by highest priority")
 manager.slowSortByPriority()
 manager.printTasks()
+
+// E-commerce Shopping Cart 
